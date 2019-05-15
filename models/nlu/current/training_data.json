@@ -1,0 +1,225 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "green",
+            "entity": "choice"
+          }
+        ],
+        "text": "My choice is green"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "red",
+            "entity": "choice"
+          }
+        ],
+        "text": "I like red"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "blue",
+            "entity": "choice"
+          }
+        ],
+        "text": "blue is my favorite choice"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "purple",
+            "entity": "choice"
+          }
+        ],
+        "text": "Definitely purple"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "lime",
+            "entity": "choice"
+          }
+        ],
+        "text": "I love lime"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "pink",
+            "entity": "choice"
+          }
+        ],
+        "text": "I think its pink"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "black",
+            "entity": "choice"
+          }
+        ],
+        "text": "favorite choice is black"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "yellow",
+            "entity": "choice"
+          }
+        ],
+        "text": "I adore yellow"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "maroon",
+            "entity": "choice"
+          }
+        ],
+        "text": "maroon"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "navy blue",
+            "entity": "choice"
+          }
+        ],
+        "text": "Probably navy blue"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "grey",
+            "entity": "choice"
+          }
+        ],
+        "text": "I love grey"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "orange",
+            "entity": "choice"
+          }
+        ],
+        "text": "orange"
+      },
+      {
+        "intent": "provide_choice",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "white",
+            "entity": "choice"
+          }
+        ],
+        "text": "white"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

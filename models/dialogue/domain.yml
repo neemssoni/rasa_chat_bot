@@ -1,0 +1,37 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_choice
+- utter_bye
+config:
+  store_entities_as_slots: true
+entities:
+- choice
+forms: []
+intents:
+- greet:
+    use_entities: true
+- provide_choice:
+    use_entities: true
+slots:
+  choice:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_bye:
+  - text: Bye, thanks for chatting with choice bot!
+  utter_choice:
+  - text: Your favorite choice is {choice}.
+  utter_greet:
+  - buttons:
+    - payload: red
+      title: red
+    - payload: green
+      title: green
+    - payload: blue
+      title: blue
+    - payload: black
+      title: black
+    text: Hey there! :)  What is your favorite choice?

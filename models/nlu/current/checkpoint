@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/neelam.soni/Documents/rasa_chat_bot/models/nlu/current/component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/Users/neelam.soni/Documents/rasa_chat_bot/models/nlu/current/component_5_EmbeddingIntentClassifier.ckpt"
