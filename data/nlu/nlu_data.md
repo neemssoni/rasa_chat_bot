@@ -1,0 +1,31 @@
+## intent:greet
+- hey
+- hello
+- hi
+- hello there
+- good morning
+- good evening
+- moin
+- hey there
+- let's go
+- hey dude
+- goodmorning
+- goodevening
+- good afternoon
+- Hi
+- Hello
+
+## intent: provide_choice
+- My choice is [green](choice)
+- I like [red](choice)
+- [blue](choice) is my favorite choice
+- Definitely [purple](choice)
+- I love [lime](choice)
+- I think its [pink](choice)
+- favorite choice is [black](choice)
+- I adore [yellow](choice)
+- [maroon](choice)
+- Probably [navy blue](choice)
+- I love [grey](choice)
+- [orange](choice)
+- [white](choice)
