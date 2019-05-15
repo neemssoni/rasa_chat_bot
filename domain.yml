@@ -1,0 +1,34 @@
+slots:
+  choice:
+        type: text
+
+intents:
+  - greet
+  - provide_choice
+
+entities:
+  - choice
+
+actions:
+- utter_greet
+- utter_choice
+- utter_bye
+
+templates:
+  utter_greet:
+  - text: "Hey there! :)  What is your favorite choice?"
+    buttons:
+    - title: "red"
+      payload: "red"
+    - title: "green"
+      payload: "green"
+    - title: "blue"
+      payload: "blue"
+    - title: "black"
+      payload: "black"
+
+  utter_choice:
+  - text: "Your favorite choice is {choice}."
+
+  utter_bye:
+  - text: "Bye, thanks for chatting with choice bot!"
